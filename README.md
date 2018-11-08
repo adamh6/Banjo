@@ -1,4 +1,4 @@
 # Banjo
-Trivia site
+Banjo Kazooie trivia site. Work in progress.
 
 Written in Node.js along with Express. 
