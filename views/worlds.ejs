@@ -1,0 +1,24 @@
+<% include partials/header %>
+
+<div class="container">
+    <div id="heading">
+        <h1>Banjo Tooie Worlds</h1>
+        <p>This is where you can see all of the worlds in Banjo Tooie. Click on a world to see more information.</p>
+        </div>
+
+        <div class="row style="display:flex; flex-wrap: wrap;">
+            <% worlds.forEach(function(world){ %>
+            <div class="col-lg-4" "col-md-6">
+            <div class="thumbnail">
+                <img class="gallery" src="<%= world.image %>" height="250" width="250"> 
+            </div>
+            <div class="caption">
+                <h4><%= world.name %></h4>
+            </div> 
+        </div>
+<% }); %>
+</div>
+</div>
+</div>
+
+<% include partials/footer %>

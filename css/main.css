@@ -1,0 +1,277 @@
+body {
+
+    font-family: 'Lithos Pro';
+}
+
+li:last-of-type {
+    
+    border-right: none;
+}
+
+@font-face {
+    font-family: 'Lithos Pro';
+    src: url('../fonts/LithosPro-Black.woff2') format('woff2'),
+         url('../fonts/LithosPro-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'Lithos Pro';
+    src: url('../fonts/LithosPro-Regular.woff2') format('woff2'),
+         url('../fonts/LithosPro-Regular.woff') format('woff');
+    /*font-weight: 900;*/
+    /*font-style: normal;*/
+}
+
+p {
+    
+    color: #670E36;
+    font-weight: 700;
+    max-width: 720px;
+}
+
+.content {
+  overflow: auto;
+  position: relative;
+}
+
+.content:before {
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+
+  display: block;
+  background-color: skyblue;
+  background-size:cover;
+  width: 100%;
+  height: 100%;
+
+  /*-webkit-filter: blur(2px);*/
+  /*-moz-filter: blur(2px);*/
+  /*-o-filter: blur(2px);*/
+  /*-ms-filter: blur(2px);*/
+  /*filter: blur(2px);*/
+  
+  
+}
+
+li:hover {
+    
+    /*background: skyblue;*/
+    /*color: skyblue;*/
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    
+    /*color: #95BFE5;*/
+    /*color: #670E36;*/
+    color: white;
+    text-shadow: 1px 1px 1px #670E36;
+    
+}
+
+
+.navbar-expand {
+    
+    background: black;
+}
+
+.dropdown-item {
+    
+    height: 100%;
+}
+
+.dropdown-item:hover {
+    
+    color: skyblue;
+    background: #670E36;
+    height: 100%;
+}
+
+#puzzle {
+    
+    /*color: gold;*/
+    text-shadow: 1px 1px 1px #670E36;
+}
+
+.text-muted {
+    
+    color: black!important;
+}
+
+#puzzle:hover {
+    
+    color: gold;
+}
+
+
+.navbar-nav > li{
+  padding-left:20px;
+  padding-right:20px;
+}
+
+.navbar-nav {
+    
+    color: white;
+}
+
+.navbar-light .navbar-toggler {
+    
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    
+    color: skyblue;
+    /*text-shadow: 1px 1px 1px yellow;*/
+    text-shadow: none;
+    /*color: white;*/
+}
+
+#worlds {
+    
+    color: #670E36;
+    background-color: #95BFE5;
+    margin-top: 10%;
+    border: none;
+}
+
+.menu {
+    
+    padding-top: 3%;
+
+}
+
+.menu:last-of-type{
+    
+    border-right: none;
+}
+
+#tooie {
+    
+    height: 70%;
+    width: 70%;
+}
+
+#games {
+    
+    margin-top: 15%;
+}
+
+.navbar {
+    
+    font-weight: 700;
+    font-size: 1.2rem;
+    background: #670E36;
+
+}
+
+a h3:hover {
+    
+    color: #670E36;
+    text-shadow: none;
+}
+
+#worlds:hover {
+
+    background-color: #670E36;
+    color: #95BFE5;
+    /*color: white;*/
+    text-shadow: none;
+   
+}
+
+
+.thumbnail {
+    
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+
+#pic {
+
+    float: right;
+}
+
+#banjo {
+
+    margin-top: 15%;
+    height: 70%;
+    width: 70%;
+}
+
+h3 {
+    color: #670E36;
+    font-weight: 700;
+}
+
+h2 {
+    
+    /*color: white;*/
+    color: #670E36;
+    font-weight: 700;
+    text-shadow: none;
+    
+}
+
+a h3 {
+    
+    margin-top: 2%;
+}
+
+#services {
+    
+    margin-top: 5%;
+}
+
+#main-puzzle {
+    
+    color: gold;
+    text-shadow: 2px 2px 2px #670E36;
+    margin-top: 2%;
+}
+
+.home-icons {
+    
+    color: #670E36;
+    /*text-shadow: 2px 2px 2px gold;*/
+}
+
+.home-icons:hover {
+    
+    color: white;
+    text-shadow: 1px 1px 1px #670E36;
+}
+
+#home {
+    text-align: center;
+    margin-top: 8%;
+}
+
+#heading{
+    
+    margin-top: 5%;
+}
+    
+h1 {
+    
+    font-weight: 700;
+    color: #670E36;
+    /*font-weight: bold;*/
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 1px skyblue;
+    /*color: white;*/
+}
+
+.jumbotron {
+    
+    margin-top: 5%;
+    text-align: left;
+  
+}
